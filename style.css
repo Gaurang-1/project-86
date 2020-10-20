@@ -1,0 +1,56 @@
+.body_background 
+{
+    background-image: url("images.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
+}
+
+h2
+{
+  background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 37%);
+
+    border-radius: 10px;
+    width: 600px;
+    padding: 5px;
+ }
+h2:hover{
+  background: rgb(58,71,180);
+background: linear-gradient(90deg, rgba(58,71,180,1) 0%, rgba(81,181,233,1) 100%, rgba(252,176,69,1) 100%);;
+}
+h3
+{
+    display: inline-block;
+
+
+}
+#head_info{
+background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+span
+{
+    color: black;   
+}
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    float: left;
+    border-radius: 10px;
+}
+#head_info
+{
+    width: 600px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
